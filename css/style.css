@@ -172,6 +172,12 @@ section {
   padding: 1rem 0;
   line-height: 2;
 }
+p{
+  font-size: 1.5rem;
+  color: #aaa;
+  padding: 1rem 0;
+  line-height: 2;
+}
 
 .about .row {
   display: -webkit-box;
@@ -237,6 +243,8 @@ section {
       flex-wrap: wrap;
   gap: 2rem;
 }
+
+
 
 .about .row .count-container .box {
   -webkit-box-flex: 1;
@@ -561,7 +569,7 @@ section {
   color: #fff;
 }
 
-.contact .row .info-container .share a {
+ .share a {
   font-size: 2rem;
   height: 4.5rem;
   width: 4.5rem;
@@ -573,7 +581,7 @@ section {
   margin-right: .3rem;
 }
 
-.contact .row .info-container .share a:hover {
+ .share a:hover {
   background: crimson;
 }
 
