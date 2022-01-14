@@ -35,8 +35,37 @@
 }
 
 .bt:hover i {
-  margin-left: 2rem;
+  margin: 0.5rem;
 }
+
+.bt1 {
+  display: inline-block;
+  /* margin-left: 59px; */
+  border-radius: 5rem;
+  background: orange;
+  padding: 10px ;
+  color: #fff;
+  margin:10px;
+ 
+}
+
+.bt1 i {
+  height: 4rem;
+  width: 4rem;
+  line-height: 4rem;
+  font-size: 3rem;
+  text-align: center;
+  background: #fff;
+  color: red;
+  border-radius: 50%;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+
+.bt1:hover i {
+  color: rgb(243, 182, 182);
+}
+
 
 html {
   font-size: 62.5%;
