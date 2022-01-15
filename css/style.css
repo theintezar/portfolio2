@@ -206,9 +206,12 @@ section {
 }
 
 .home .image img {
-  height: 50rem;
-  width: 50rem;
-  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  height: 43em;
+  width: 38rem;
+  padding: 10px;
+  background-color: crimson;
+  /* border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; */
+  border-radius: 60%;
 }
 
 .home .content {
