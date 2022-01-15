@@ -745,7 +745,17 @@ p{
 
 @media (max-width: 450px) {
   html {
-    font-size: 50%;
+    font-size: 40%;
+  }
+  .bt1 {
+    border-radius: 2px;
+   padding: 3px 5px ;
+   margin:7px !important;
+    /* margin-top: 10px; */
+   
+  }
+  .tech-stack img{
+    width: 25px !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
