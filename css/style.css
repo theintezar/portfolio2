@@ -17,6 +17,7 @@
 #newImg{
   width: 100%;
   object-fit: contain;
+  background-image: 100%;
 }
 /* #newImg{ */
   /* width: 100%;
