@@ -125,7 +125,7 @@ section {
 
 .navbar {
   position: fixed;
-  bottom: 0;
+  top: 0;
   left: 0;
   right: 0;
   display: -webkit-box;
@@ -157,7 +157,7 @@ section {
 
 .navbar a:hover {
   background: crimson;
-  padding-bottom: 6rem;
+  /* padding-bottom: 6rem; */
 }
 
 .navbar a:hover i {
@@ -700,6 +700,11 @@ p{
   .navbar a span {
     display: none;
   }
+
+  .navbar {
+    bottom: 0;}
+
+
   .navbar a:hover {
     padding-bottom: 2rem;
   }
