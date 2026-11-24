@@ -2,6 +2,9 @@ import nykaa from './assets/nykaa.jpg'
 import fm from './assets/frontmasters.jpg'
 import uniqlo from './assets/uniqlo.jpg'
 import social from './assets/social.jpg'
+import GeoFleet from './assets/geofleet.png'
+import globaldukan from './assets/globalducan.png'
+
 
 export const profile = {
   name: 'Intezar Ahmad',
@@ -43,20 +46,24 @@ export const projects = [
   {
     title: 'GeoFleet AI',
     tag: 'Real-time Fleet Platform',
+    img: GeoFleet,
     featured: true,
     desc: 'Live vehicle tracking, reusable high-performance data grids, bulk CSV import with live progress, and webhook management with delivery audit views.',
     stack: ['React', 'Next.js', 'TypeScript', 'OpenStreetMap', 'Socket.IO'],
     hue: 190,
     icon: 'map',
+    demo: 'https://dev.geofleet.ai/',
   },
   {
     title: 'Global Dukan',
+    img: globaldukan,
     tag: 'E-commerce Platform',
     featured: true,
     desc: 'End-to-end order & payment system — cart, checkout, order page and order history.',
     stack: ['React', 'REST APIs', 'Redux'],
     hue: 330,
     icon: 'cart',
+    demo: 'https://globalducan.com/',
   },
   {
     title: 'PINCHFIT',
